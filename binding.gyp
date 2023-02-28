@@ -58,6 +58,7 @@
               'cflags': []
             , 'cflags!': [ '-fno-tree-vrp', '-fno-exceptions' ]
             , 'cflags_cc!': [ '-fno-exceptions' ]
+            , 'libraries': [ '-llz4' ]
           }]
         ]
       , "dependencies": [

@@ -91,7 +91,8 @@
       , ['OS == "linux"', {
             'defines': [
                 'OS_LINUX=1',
-                'ROCKSDB_LIB_IO_POSIX=1'
+                'ROCKSDB_LIB_IO_POSIX=1',
+                'LZ4=1'
             ]
           , 'libraries': [
                 '-lpthread'
